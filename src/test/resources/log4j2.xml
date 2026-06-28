@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+
+        <!-- Console output -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%level] - [%d{dd-MM-yyyy HH:mm:ss}] [%t] [%logger] - %msg%n"/>
+        </Console>
+
+        <!-- File output — writes to test-output/logs/ -->
+        <RollingFile name="FileAppender"
+                     fileName="${sys:user.dir}/test-output/logs/execution.log"
+                     filePattern="${sys:user.dir}/test-output/logs/execution-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="[%level] - [%d{dd-MM-yyyy HH:mm:ss}] [%t] [%logger] - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/> <!-- ✅ enable file logging -->
+        </Root>
+    </Loggers>
+</Configuration>

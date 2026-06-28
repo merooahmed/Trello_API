@@ -1,0 +1,21 @@
+<suite name="API Suite">
+
+    <test name="Positive Tests">
+
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.terrelloAPI.CreateBoardTest"/>
+            <class name="com.terrelloAPI.CreateCustomListTest"/>
+            <class name="com.terrelloAPI.VerifyDefaultListsExist"/>
+            <class name="com.terrelloAPI.CardsTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

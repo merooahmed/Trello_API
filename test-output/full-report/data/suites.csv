@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3051","Verify user can create board successfully","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.CreateBoardTest","Positive Tests","com.terrelloAPI.CreateBoardTest","testCreateBoardSuccessfully"
+"","643","verifyUserCanCreateSetupPaymentGatewayCard","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.CardsTest","Positive Tests","com.terrelloAPI.CardsTest","verifyUserCanCreateSetupPaymentGatewayCard"
+"","526","verifyUserCanCreateDesignHomepageCard","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.CardsTest","Positive Tests","com.terrelloAPI.CardsTest","verifyUserCanCreateDesignHomepageCard"
+"","598","verifyUserCanCreateCustomList","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.CreateCustomListTest","Positive Tests","com.terrelloAPI.CreateCustomListTest","verifyUserCanCreateCustomList"
+"","655","verifyDefaultListsExist","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.VerifyDefaultListsExist","Positive Tests","com.terrelloAPI.VerifyDefaultListsExist","verifyDefaultListsExist"
+"","902","verifyCardDeleted","API Suite","2026-06-28","passed","2026-06-28","com.terrelloAPI.CardsTest","Positive Tests","com.terrelloAPI.CardsTest","verifyCardDeleted"

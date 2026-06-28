@@ -1,0 +1,186 @@
+[INFO] - [27-06-2026 21:13:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 21:13:26] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 21:13:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 21:13:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 21:13:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 21:13:27] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 21:13:29] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 21:13:29] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 21:13:29] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 21:13:31] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 21:13:31] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 21:13:36] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully FAILED
+[INFO] - [27-06-2026 21:13:37] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully failed
+[INFO] - [27-06-2026 21:13:45] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 21:13:45] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 21:13:54] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 21:13:54] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_09-13-54.html
+[INFO] - [27-06-2026 21:13:55] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 21:13:55] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 21:15:49] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 21:15:49] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 21:15:49] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 21:15:49] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 21:15:49] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 21:15:50] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 21:15:52] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 21:15:52] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 21:15:52] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 21:15:53] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 21:15:53] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 21:15:57] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully FAILED
+[INFO] - [27-06-2026 21:15:57] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully failed
+[INFO] - [27-06-2026 21:16:00] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 21:16:00] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 21:16:04] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 21:16:04] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_09-16-04.html
+[INFO] - [27-06-2026 21:16:04] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 21:16:04] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 21:19:58] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 21:20:00] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 21:20:00] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 21:20:00] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 21:20:01] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 21:20:01] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 21:20:06] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully FAILED
+[INFO] - [27-06-2026 21:20:07] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully failed
+[INFO] - [27-06-2026 21:20:10] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 21:20:10] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 21:20:13] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 21:20:13] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_09-20-13.html
+[INFO] - [27-06-2026 21:20:14] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 21:20:14] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 21:20:52] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 21:20:55] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 21:20:55] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 21:20:56] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 21:20:57] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 21:20:57] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 21:21:01] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully PASSED
+[INFO] - [27-06-2026 21:21:01] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully passed
+[INFO] - [27-06-2026 21:21:05] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 21:21:05] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 21:21:09] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 21:21:09] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_09-21-09.html
+[INFO] - [27-06-2026 21:21:09] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 21:21:09] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 22:39:23] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 22:39:25] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 22:39:25] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 22:39:25] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 22:39:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 22:39:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 22:39:29] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully FAILED
+[INFO] - [27-06-2026 22:39:29] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully failed
+[INFO] - [27-06-2026 22:39:32] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 22:39:32] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 22:39:35] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 22:39:35] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_10-39-35.html
+[INFO] - [27-06-2026 22:39:35] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 22:39:35] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 22:42:36] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 22:42:36] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 22:42:36] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 22:42:36] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 22:42:36] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 22:42:37] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 22:42:39] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 22:42:39] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 22:42:39] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 22:42:40] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 22:42:40] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case testCreateBoardSuccessfully started
+[INFO] - [27-06-2026 22:42:44] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method testCreateBoardSuccessfully PASSED
+[INFO] - [27-06-2026 22:42:44] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case testCreateBoardSuccessfully passed
+[INFO] - [27-06-2026 22:42:47] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 22:42:47] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 22:42:49] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 22:42:49] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_10-42-49.html
+[INFO] - [27-06-2026 22:42:49] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 22:42:49] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 23:14:09] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 23:14:11] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 23:14:11] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 23:14:11] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 23:14:13] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup failed
+[INFO] - [27-06-2026 23:14:14] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case verifyDefaultListsExist started
+[INFO] - [27-06-2026 23:14:14] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method verifyDefaultListsExist SKIPPED
+[INFO] - [27-06-2026 23:14:14] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case verifyDefaultListsExist skipped
+[INFO] - [27-06-2026 23:14:14] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method cleanup passed
+[INFO] - [27-06-2026 23:14:17] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 23:14:17] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 23:14:19] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 23:14:19] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_11-14-19.html
+[INFO] - [27-06-2026 23:14:20] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 23:14:20] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [27-06-2026 23:18:13] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-06-2026 23:18:13] [main] [com.terrelloAPI.FileUtils] - Failed to delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log due to: Cannot delete file: D:\automationtestproject\TerrelloAPI\test-output\logs\execution.log
+[INFO] - [27-06-2026 23:18:13] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-06-2026 23:18:13] [main] [com.terrelloAPI.listeners.TestNGListeners] - Directories created
+[INFO] - [27-06-2026 23:18:13] [main] [com.terrelloAPI.listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-06-2026 23:18:14] [main] [com.terrelloAPI.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-06-2026 23:18:16] [main] [com.terrelloAPI.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-06-2026 23:18:16] [main] [com.terrelloAPI.listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-06-2026 23:18:16] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+[INFO] - [27-06-2026 23:18:21] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method setup passed
+[INFO] - [27-06-2026 23:18:21] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Case verifyDefaultListsExist started
+[INFO] - [27-06-2026 23:18:22] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Method verifyDefaultListsExist PASSED
+[INFO] - [27-06-2026 23:18:22] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test case verifyDefaultListsExist passed
+[INFO] - [27-06-2026 23:18:23] [main] [com.terrelloAPI.listeners.TestNGListeners] - Configuration Method cleanup passed
+[INFO] - [27-06-2026 23:18:26] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\full-report
+
+[INFO] - [27-06-2026 23:18:26] [main] [com.terrelloAPI.listeners.TestNGListeners] - History copied
+[INFO] - [27-06-2026 23:18:28] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: Report successfully generated to D:\automationtestproject\TerrelloAPI\test-output\reports
+
+[INFO] - [27-06-2026 23:18:28] [main] [com.terrelloAPI.FileUtils] - File renamed to: D:\automationtestproject\TerrelloAPI\test-output\reports\AllureReport_2026-06-27_11-18-28.html
+[INFO] - [27-06-2026 23:18:28] [main] [com.terrelloAPI.utils.TerminalUtils] - Command succeeded | Output: 
+[INFO] - [27-06-2026 23:18:28] [main] [com.terrelloAPI.listeners.TestNGListeners] - Test Execution Finished
