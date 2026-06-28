@@ -40,3 +40,5 @@ build/
 .idea/
 src/test/resources/test-data/ApiCredntials.json
 src/main/java/com/terrelloAPI/configs/ApiConfig.java
+test-output/
+allure-results/

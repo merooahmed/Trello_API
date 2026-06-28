@@ -5,31 +5,35 @@ import com.terrelloAPI.constants.EndPoints;
 import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 import static com.terrelloAPI.configs.ApiConfig.API_KEY;
 import static com.terrelloAPI.configs.ApiConfig.API_TOKEN;
 import static io.restassured.RestAssured.given;
 
 public class CardsRequests {
-    @Step("create {cardName} card in selected List")
-    public Response createCard(String listId, String cardName){
+    @Step("Create {cardName} card")
+    public Response createCard(String listId, String cardName) {
 
-        return given()
+        RequestSpecification request = given()
                 .filter(new AllureRestAssured())
+                .queryParam("key", API_KEY)
+                .queryParam("token", API_TOKEN);
 
-                .queryParam("key",API_KEY)
-                .queryParam("token",API_TOKEN)
+        if (listId != null) {
+            request.queryParam("idList", listId);
+        }
 
-                .queryParam("idList",listId)
-                .queryParam("name",cardName)
+        if (cardName != null) {
+            request.queryParam("name", cardName);
+        }
 
+        return request
                 .when()
-
                 .post(EndPoints.CREATE_CARD)
-
                 .then()
-
-                .extract().response();
+                .extract()
+                .response();
     }
 
 @Step("get cards from selected list")

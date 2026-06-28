@@ -1,0 +1,23 @@
+<suite name="API Suite">
+
+    <test name="Negative Tests">
+
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.terrelloAPI.CreateBoardNegativeTests"/>
+            <class name="com.terrelloAPI.GetDefaultListsNegativeTests"/>
+            <class name="com.terrelloAPI.CreateListNagetiveTest"/>
+            <class name="com.terrelloAPI.CardsNegativeTests"/>
+            <class name="com.terrelloAPI.GetDefaultListsNegativeTests"/>
+
+
+        </classes>
+
+    </test>
+
+</suite>

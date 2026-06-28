@@ -5,6 +5,7 @@ import com.terrelloAPI.createBoard.BoardResponse;
 import com.terrelloAPI.createBoard.CreateBoardRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -49,6 +50,10 @@ createBoardRequest=new CreateBoardRequest();
 
         assertEquals(deleteResponse.statusCode(),200);*/
     }
+
+
+
+
 
     @AfterClass(alwaysRun = true)
     public void cleanup() {

@@ -1,29 +1,51 @@
 package com.terrelloAPI.GetdefaultLists;
 
 import com.terrelloAPI.configs.ApiConfig;
+import com.terrelloAPI.constants.EndPoints;
 import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
 import static io.restassured.RestAssured.given;
 
-
 public class GetDefaultsLists {
+
     @Step("Get board lists")
-    public Response getBoardLists(String boardId){
+    public Response getBoardLists(String boardId) {
+        return getBoardLists(boardId, ApiConfig.API_KEY, ApiConfig.API_TOKEN);
+    }
 
-        return given()
-                .filter(new AllureRestAssured())
+    @Step("Get board lists")
+    public Response getBoardLists(String boardId, String apiKey, String apiToken) {
 
-                .queryParam("key", ApiConfig.API_KEY)
-                .queryParam("token", ApiConfig.API_TOKEN)
+        RequestSpecification request = given()
 
-                .pathParam("boardId", boardId)
+                .filter(new AllureRestAssured());
+
+        if (apiKey != null) {
+            request.queryParam("key", apiKey);
+        }
+
+        if (apiToken != null) {
+            request.queryParam("token", apiToken);
+        }
+
+        if (boardId != null) {
+            request.pathParam("boardId", boardId);
+        }
+
+        return request
+
+                .log().all()
 
                 .when()
 
-                .get("/boards/{boardId}/lists")
+                .get(EndPoints.DEFAULT_LISTS)
 
                 .then()
+
+                .log().all()
 
                 .extract().response();
     }
